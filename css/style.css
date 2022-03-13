@@ -1,0 +1,49 @@
+/*** The new CSS Reset - version 1.3.1 (last updated 28.10.2021) ***/
+*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+textarea {
+  white-space: revert;
+}
+
+.slideBox {
+  width: 600px;
+  height: 600px;
+  margin: 100px;
+  border: 1px solid #000;
+  position: relative;
+  background-color: gray;
+}
+
+.slideBox .cell {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border: 11px solid #8bc34a;
+  background-color: #4caf50;
+  font-size: 100px;
+  line-height: 200px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
