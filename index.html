@@ -12,13 +12,21 @@
 <body>
 
     <h1>スライドパズル</h1>
-    <p>cssとjsを駆使してスライドパズルを作ってみたいと思います。初めは3*3から。後々数を増やせるように工夫していきましょう。
+    <p>cssとjsを駆使してスライドパズルを作ってみました。下のテキストボックスでタイル数を変更できます。
     </p>
 
-    <div class="slideBox">
-    </div>
+    <label>1辺のタイル数</label>
+    <input id="size" type="number" min="3" max="10" value="3">
+    <button class="btn-play"><a href="#">Play!</a></button>
 
 
+    <div class="clear">GAME CLEAR</div> 
+    
+    <div class="box-data">移動数:0</div>
+    
+    <div class="slideBox"></div>
+
+    <p>矢印キーもしくはタイルをクリックすることで動かすことができます。</p>
 
 
 
